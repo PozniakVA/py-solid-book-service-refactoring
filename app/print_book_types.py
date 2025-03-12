@@ -1,5 +1,5 @@
 from app.interfaces import PrintBookInterface
-from app.main import Book
+from app.models import Book
 
 
 class ConsolePrint(PrintBookInterface):

@@ -4,14 +4,9 @@ from app.interfaces import (
     PrintBookInterface,
     SerializerBookInterface
 )
+from app.models import Book
 from app.print_book_types import ConsolePrint, ReversePrint
 from app.serializer_types import XMLSerializer, JsonSerializer
-
-
-class Book:
-    def __init__(self, title: str, content: str) -> None:
-        self.title = title
-        self.content = content
 
 
 class BookDisplay:

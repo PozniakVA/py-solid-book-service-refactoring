@@ -2,7 +2,7 @@ import json
 import xml.etree.ElementTree as ET # noqa
 
 from app.interfaces import SerializerBookInterface
-from app.main import Book
+from app.models import Book
 
 
 class JsonSerializer(SerializerBookInterface):
