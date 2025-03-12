@@ -1,5 +1,5 @@
 import json
-import xml.etree.ElementTree as ET
+import xml.etree.ElementTree as ET # noqa
 
 from app.interfaces import SerializerBookInterface
 from app.main import Book
